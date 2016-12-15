@@ -1,0 +1,21 @@
+//
+//  QWPrefixHeader.pch
+//  CQZX-INK
+//
+//  Created by qingweiqw on 16/11/6.
+//  Copyright © 2016年 qingweiqw. All rights reserved.
+//
+
+#ifndef QWPrefixHeader_pch
+#define QWPrefixHeader_pch
+#import "CommonlyMacro.h"
+
+#import "UIView+Extension.h"
+#import "QWNetWokHelper.h"
+#import "MJExtension.h"
+#import "QWCommonlyConst.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* QWPrefixHeader_pch */
