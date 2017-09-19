@@ -10,15 +10,19 @@
 
 @interface QWNearModel : NSObject
 /** 播放流地址 */
-@property(nonatomic,copy)NSString * stream_addr;
+@property(nonatomic, copy)   NSString * stream_addr;
 /** 详情 */
-@property(nonatomic,strong)NSDictionary * creator;
+@property(nonatomic, strong) NSDictionary * creator;
 /** id */
-@property(nonatomic,copy)NSString * id;
+@property(nonatomic, copy)   NSString * id;
 /** 分享地址 */
-@property(nonatomic,copy) NSString *share_addr;
+@property(nonatomic, copy)   NSString *share_addr;
 /** 距离 */
-@property(nonatomic,copy) NSString *distance;
+@property(nonatomic, copy)   NSString *distance;
+
+/** 城市 */
 /** 热度 */
-@property(nonatomic,copy) NSString *slot;
+@property(nonatomic, copy)   NSString *city;
+/** 话题 */
+@property(nonatomic, copy)   NSString *name;
 @end

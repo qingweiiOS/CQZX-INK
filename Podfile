@@ -15,7 +15,7 @@ pod 'Reachability', '~> 3.2'
 pod 'SDCycleScrollView', '~> 1.61'
 pod 'SDWebImage'
 pod 'MJExtension'
-
+pod 'SDCycleScrollView'
   # Pods for CQZX-INK
 
 end

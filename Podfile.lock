@@ -37,6 +37,7 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh (~> 3.1.0)
   - Reachability (~> 3.2)
+  - SDCycleScrollView
   - SDCycleScrollView (~> 1.61)
   - SDWebImage
   - SMPageControl (~> 1.2)
@@ -54,6 +55,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
 
-PODFILE CHECKSUM: 524afdbe189577ffae00c85dbd4a77f62119ef69
+PODFILE CHECKSUM: 71a47ef9f961fec1f9d83486d3be8a58273bbee9
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

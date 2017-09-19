@@ -24,7 +24,6 @@
 		4DA2383D1DCF0181001EBE77 /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2383C1DCF0181001EBE77 /* QWTabBar.m */; };
 		4DA238411DCF21A3001EBE77 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA238401DCF21A3001EBE77 /* UIView+Extension.m */; };
 		4DB1C2751DCF2918003072B6 /* QWNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1C2741DCF2918003072B6 /* QWNavTitleView.m */; };
-		4DC6AAD11DCF754F00E30E69 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6AAD01DCF754F00E30E69 /* IJKMediaFramework.framework */; };
 		4DC6AAD31DCF762900E30E69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6AAD21DCF762900E30E69 /* libc++.tbd */; };
 		4DC6AAD51DCF764200E30E69 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6AAD41DCF764200E30E69 /* CFNetwork.framework */; };
 		4DC6AAD71DCF765400E30E69 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6AAD61DCF765400E30E69 /* VideoToolbox.framework */; };
@@ -50,6 +49,8 @@
 		4DD574EF1DCEF3E60004F64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD574EE1DCEF3E60004F64C /* AppDelegate.m */; };
 		4DD574F71DCEF3E60004F64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD574F61DCEF3E60004F64C /* Assets.xcassets */; };
 		4DD574FA1DCEF3E60004F64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD574F81DCEF3E60004F64C /* LaunchScreen.storyboard */; };
+		7F7972051F7105C60074FE4B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7972041F7105C60074FE4B /* IJKMediaFramework.framework */; };
+		7F7972081F71213B0074FE4B /* QWBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7972071F71213B0074FE4B /* QWBannerModel.m */; };
 		F9CA1507D466FDF6DF9A0E70 /* libPods-CQZX-INK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17666A93024DC31B4E30B24F /* libPods-CQZX-INK.a */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +87,6 @@
 		4DA238401DCF21A3001EBE77 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		4DB1C2731DCF2918003072B6 /* QWNavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWNavTitleView.h; sourceTree = "<group>"; };
 		4DB1C2741DCF2918003072B6 /* QWNavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWNavTitleView.m; sourceTree = "<group>"; };
-		4DC6AAD01DCF754F00E30E69 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../../IJKMediaFramework.framework; sourceTree = "<group>"; };
 		4DC6AAD21DCF762900E30E69 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		4DC6AAD41DCF764200E30E69 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4DC6AAD61DCF765400E30E69 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
@@ -124,6 +124,9 @@
 		4DD574F61DCEF3E60004F64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD574F91DCEF3E60004F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD574FB1DCEF3E60004F64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7972041F7105C60074FE4B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		7F7972061F71213B0074FE4B /* QWBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBannerModel.h; sourceTree = "<group>"; };
+		7F7972071F71213B0074FE4B /* QWBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBannerModel.m; sourceTree = "<group>"; };
 		B8C97BD5B76F7EEB680B0752 /* Pods-CQZX-INK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQZX-INK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQZX-INK/Pods-CQZX-INK.debug.xcconfig"; sourceTree = "<group>"; };
 		EE2FCDB159A94BF6256A344C /* Pods-CQZX-INK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQZX-INK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQZX-INK/Pods-CQZX-INK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +139,7 @@
 				4DC6AAED1DCF76BD00E30E69 /* libz.tbd in Frameworks */,
 				4DC6AAEB1DCF76B500E30E69 /* libbz2.tbd in Frameworks */,
 				4DC6AAE91DCF76A900E30E69 /* AudioToolbox.framework in Frameworks */,
+				7F7972051F7105C60074FE4B /* IJKMediaFramework.framework in Frameworks */,
 				4DC6AAE71DCF769F00E30E69 /* AVFoundation.framework in Frameworks */,
 				4DC6AAE51DCF769700E30E69 /* CoreGraphics.framework in Frameworks */,
 				4DC6AAE31DCF768D00E30E69 /* CoreMedia.framework in Frameworks */,
@@ -148,7 +152,6 @@
 				4DC6AAD51DCF764200E30E69 /* CFNetwork.framework in Frameworks */,
 				4DC6AAD31DCF762900E30E69 /* libc++.tbd in Frameworks */,
 				F9CA1507D466FDF6DF9A0E70 /* libPods-CQZX-INK.a in Frameworks */,
-				4DC6AAD11DCF754F00E30E69 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +249,10 @@
 		4DC87C6C1DCEF45C008242D0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				7F7972031F7105C60074FE4B /* LIB */,
 				4DA2383E1DCF2155001EBE77 /* Extension */,
 				4DC87C701DCEF45C008242D0 /* Other */,
 				4DC87C6D1DCEF45C008242D0 /* Base */,
-				4DC87C6E1DCEF45C008242D0 /* Lib */,
 				4DC87C6F1DCEF45C008242D0 /* NetWork */,
 				4DC87C711DCEF45C008242D0 /* ShowMain */,
 				4DC87C7E1DCEF45C008242D0 /* Souce */,
@@ -270,14 +273,6 @@
 				4DC87C871DCEF92A008242D0 /* QWBaseNavigatonController.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		4DC87C6E1DCEF45C008242D0 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				4DC6AAD01DCF754F00E30E69 /* IJKMediaFramework.framework */,
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		4DC87C6F1DCEF45C008242D0 /* NetWork */ = {
@@ -375,6 +370,8 @@
 				4D1AB1041DCF5C8D009EC0F6 /* QWLiveModel.m */,
 				4D289B2D1DD07D6B002933CF /* QWNearModel.h */,
 				4D289B2E1DD07D6B002933CF /* QWNearModel.m */,
+				7F7972061F71213B0074FE4B /* QWBannerModel.h */,
+				7F7972071F71213B0074FE4B /* QWBannerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -473,6 +470,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7F7972031F7105C60074FE4B /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+				7F7972041F7105C60074FE4B /* IJKMediaFramework.framework */,
+			);
+			path = LIB;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,7 +513,7 @@
 				TargetAttributes = {
 					4DD574E61DCEF3E60004F64C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = GTMB342TR8;
+						DevelopmentTeam = U2Q8AKAV4B;
 					};
 				};
 			};
@@ -573,7 +578,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C22172BC27D6CDE57B383FA8 /* [CP] Embed Pods Frameworks */ = {
@@ -607,6 +612,7 @@
 				4DC87C881DCEF92A008242D0 /* QWBaseNavigatonController.m in Sources */,
 				4DC6AAF41DCF773A00E30E69 /* QWShowLiveViewController.m in Sources */,
 				4DC87C991DCEFDDE008242D0 /* QWMeViewController.m in Sources */,
+				7F7972081F71213B0074FE4B /* QWBannerModel.m in Sources */,
 				4DC87C901DCEFD54008242D0 /* QWLiveController.m in Sources */,
 				4D4099661DCF5CE400BF6086 /* QWNetWokHelper.m in Sources */,
 				4D289B2F1DD07D6B002933CF /* QWNearModel.m in Sources */,
@@ -726,10 +732,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
+				DEVELOPMENT_TEAM = U2Q8AKAV4B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CQZX-INK/Class/Lib",
 					"$(PROJECT_DIR)/CQZX-INK",
+					"$(PROJECT_DIR)/CQZX-INK/Class/LIB",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CQZX-INK/Class/Other/QWPrefixHeader.pch";
 				INFOPLIST_FILE = "CQZX-INK/Info.plist";
@@ -760,10 +768,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
+				DEVELOPMENT_TEAM = U2Q8AKAV4B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CQZX-INK/Class/Lib",
 					"$(PROJECT_DIR)/CQZX-INK",
+					"$(PROJECT_DIR)/CQZX-INK/Class/LIB",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CQZX-INK/Class/Other/QWPrefixHeader.pch";
 				INFOPLIST_FILE = "CQZX-INK/Info.plist";

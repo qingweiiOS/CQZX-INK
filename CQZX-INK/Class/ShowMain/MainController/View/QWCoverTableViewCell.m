@@ -13,11 +13,6 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-   
-    
-
-
-    
     self.headImg.layer.cornerRadius = self.headImg.height/2.0;
     self.headImg.layer.masksToBounds = YES;
     //btn 文字居左
@@ -38,7 +33,7 @@
     self.Cover.image = DEFAULTIMAGE;
     self.headImg.image = DEFAULTIMAGE;
     //设置头像
-    [self.Cover sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://img.meelive.cn/%@",_lModel.creator[@"portrait"]]] placeholderImage:DEFAULTIMAGE completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+    [self.Cover sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",_lModel.creator[@"portrait"]]] placeholderImage:DEFAULTIMAGE completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
       //封面
         self.headImg.image = [UIImage imageWithData:UIImageJPEGRepresentation(image, 0.25)];
     }];
@@ -46,8 +41,7 @@
     self.personNumber.text= _lModel.online_users;
     //主播名称
     self.name.text=_lModel.creator[@"nick"];
-    
-    
+    self.nameLab.text = _lModel.name;
     
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

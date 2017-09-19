@@ -35,7 +35,7 @@
     UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert categories:nil];
     [application registerUserNotificationSettings:settings];
     //添加通知
-    [self addNotificationPush];
+//    [self addNotificationPush];
     
     
     return YES;

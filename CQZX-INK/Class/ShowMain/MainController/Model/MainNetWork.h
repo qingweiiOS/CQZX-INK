@@ -11,4 +11,5 @@
 @interface MainNetWork : NSObject
 + (void)getTopData:(NSDictionary *)dic success:(requestSuccess)Success faile:(requestFailed)faile;
 + (void)getNearPerson:(NSDictionary *)dic success:(requestSuccess)Success faile:(requestFailed)faile;
++ (void)getBannerData:(NSDictionary *)dic success:(requestSuccess)Success faile:(requestFailed)faile;
 @end

@@ -10,6 +10,7 @@
 #import "QWLiveModel.h"
 
 @interface QWCoverTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameLab;
 @property (weak, nonatomic) IBOutlet UIImageView *headImg;
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *personNumber;

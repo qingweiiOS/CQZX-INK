@@ -12,13 +12,28 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    self.headImage.layer.cornerRadius = 5.0;
+    self.headImage.layer.masksToBounds = YES;
+    self.coverView.layer.cornerRadius = 5.0;
     // Initialization code
 }
 - (void)setNModel:(QWNearModel *)nModel
 {
     _nModel = nModel;
     self.distance.text = _nModel.distance;
+    NSString *imageUrl = _nModel.creator[@"portrait"];
+//
+    if(![imageUrl hasPrefix:@"http:"]){
+    
+        imageUrl = [NSString stringWithFormat:@"http://img.meelive.cn/%@",imageUrl];
+    }
     //设置头像
-    [self.headImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://img.meelive.cn/%@",_nModel.creator[@"portrait"]]] placeholderImage:DEFAULTIMAGE];
+    [self.headImage sd_setImageWithURL:[NSURL URLWithString:imageUrl] placeholderImage:DEFAULTIMAGE];
+    //城市
+    self.cityLab.text = _nModel.city;
+    //昵称
+    self.nickLab.text =  _nModel.creator[@"nick"];
+    // 话题
+    self.nameLab.text = _nModel.name;
 }
 @end

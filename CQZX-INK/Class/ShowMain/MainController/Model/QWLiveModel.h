@@ -11,15 +11,17 @@
 
 @interface QWLiveModel : NSObject
 /** 播放流地址 */
-@property(nonatomic,copy)NSString * stream_addr;
+@property(nonatomic, copy)   NSString * stream_addr;
 /** 在线人数 */
-@property(nonatomic,copy)NSString * online_users;
+@property(nonatomic, copy)   NSString * online_users;
 /** 详情 */
-@property(nonatomic,strong)NSDictionary * creator;
+@property(nonatomic, strong) NSDictionary * creator;
 /** id */
-@property(nonatomic,copy)NSString * id;
+@property(nonatomic, copy)   NSString * id;
 /** 城市 */
-@property(nonatomic,copy) NSString *city;
-
-
+@property(nonatomic, copy)   NSString *city;
+/** 话题 */
+@property(nonatomic, copy)   NSString *name;
+/** 标签 */
+@property(nonatomic, strong) NSDictionary *extra;
 @end
